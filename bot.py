@@ -103,7 +103,7 @@ async def send_step(message: types.Message, step_index: int) -> None:
 
     # --- Обновляем состояние ---
     if step["next"] is not None:
-        user_state[message.from_user.id] = step["next"]
+        user_state[message.from_user.id] = step_index
     else:
         # Сценарий окончен — сбрасываем
         user_state.pop(message.from_user.id, None)
