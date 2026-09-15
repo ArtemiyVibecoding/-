@@ -9,22 +9,22 @@
 # ═══════════════════════════════════════════════════════════════
 
 # --- Сердечки и любовь ---
-HEART = "<emoji id=\"5449505950283078474\">❤️</emoji>"
-KISS_MARK = "<emoji id=\"5253823632504804390\">💋</emoji>"
-SMILING_HEARTS = "<emoji id=\"5445350981741077343\">🥰</emoji>"
-KISS_FACE = "<emoji id=\"5379553147918258286\">😚</emoji>"
-KISS_FACE_2 = "<emoji id=\"5251384542052242131\">😙</emoji>"
-HEART_EYES = "<emoji id=\"5266960167936743640\">😍</emoji>"
-BLOWING_KISS = "<emoji id=\"5251384542052242131\">😘</emoji>"
+HEART = "<tg-emoji emoji-id=\"5449505950283078474\">❤️</tg-emoji>"
+KISS_MARK = "<tg-emoji emoji-id=\"5253823632504804390\">💋</tg-emoji>"
+SMILING_HEARTS = "<tg-emoji emoji-id=\"5445350981741077343\">🥰</tg-emoji>"
+KISS_FACE = "<tg-emoji emoji-id=\"5379553147918258286\">😚</tg-emoji>"
+KISS_FACE_2 = "<tg-emoji emoji-id=\"5251384542052242131\">😙</tg-emoji>"
+HEART_EYES = "<tg-emoji emoji-id=\"5266960167936743640\">😍</tg-emoji>"
+BLOWING_KISS = "<tg-emoji emoji-id=\"5251384542052242131\">😘</tg-emoji>"
 
 # --- Праздник ---
-PARTY = "<emoji id=\"5461151367559141950\">🎉</emoji>"
-GIFT = "<emoji id=\"5193085063998224234\">🎁</emoji>"
+PARTY = "<tg-emoji emoji-id=\"5461151367559141950\">🎉</tg-emoji>"
+GIFT = "<tg-emoji emoji-id=\"5193085063998224234\">🎁</tg-emoji>"
 
 # --- Эмоции ---
 FLUSHED = "😳"
-QUESTION_RED = "<emoji id=\"5397924488274783318\">❓</emoji>"
-INTERROBANG = "<emoji id=\"5467596412663372909\">⁉️</emoji>"
+QUESTION_RED = "<tg-emoji emoji-id=\"5397924488274783318\">❓</tg-emoji>"
+INTERROBANG = "<tg-emoji emoji-id=\"5467596412663372909\">⁉️</tg-emoji>"
 
 
 def e(*emojis: str) -> str:
