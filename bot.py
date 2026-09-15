@@ -131,13 +131,7 @@ async def handle_reply(message: types.Message) -> None:
 
     current_step = STEPS[step_index]
 
-    # Проверяем, что ответ совпадает с одной из кнопок (если кнопки есть)
-    if current_step.get("buttons"):
-        # Принимаем любой текст из предложенных кнопок
-        valid = [btn.strip() for btn in current_step["buttons"]]
-        if message.text.strip() not in valid:
-            await message.answer("Выбери один из вариантов ответа 👇")
-            return
+    # Мы принимаем любой ответ пользователя и двигаемся дальше
 
     # Переходим к следующему шагу
     next_index = current_step["next"]

@@ -36,9 +36,9 @@ STEPS = [
         "bot_text": f"Для начала, как твое настроение{e(QUESTION_RED, QUESTION_RED)}",
         "send_video": False,
         "buttons": [
-            f"Привееет! Всё просто супер{e(SMILING_HEARTS, SMILING_HEARTS)}",
-            f"Привееееет!!! Всё замечательно!!! {e(KISS_MARK, KISS_MARK, HEART)}",
-            f"Привееет!!! Шикарнооо{e(KISS_MARK, SMILING_HEARTS, HEART, SMILING_HEARTS)}",
+            "Привееет! Всё просто супер🥰🥰",
+            "Привееееет!!! Всё замечательно!!! 💋💋❤️",
+            "Привееет!!! Шикарнооо💋🥰❤️🥰",
         ],
         "next": 2,
     },
@@ -58,8 +58,8 @@ STEPS = [
         "bot_text": f"А знаешь, что я хочу тебе сказать{e(INTERROBANG)}",
         "send_video": False,
         "buttons": [
-            f"Чтоо{e(FLUSHED, FLUSHED)}",
-            f"Ого, что же {e(FLUSHED, FLUSHED)}",
+            "Чтоо😳😳",
+            "Ого, что же 😳😳",
         ],
         "next": 4,
     },
@@ -75,8 +75,7 @@ STEPS = [
         ),
         "send_video": False,
         "buttons": [
-            f"Спасибооо, любимый!!{e(KISS_MARK, HEART, HEART, KISS_MARK, HEART, KISS_MARK)} "
-            f"Я тебя люблюююю!!! {e(HEART, HEART, KISS_MARK, KISS_MARK, HEART)}",
+            "Спасибооо, любимый!!💋❤️❤️💋❤️💋 Я тебя люблюююю!!! ❤️❤️💋💋❤️",
         ],
         "next": 5,
     },
@@ -90,7 +89,7 @@ STEPS = [
         ),
         "send_video": True,
         "buttons": [
-            f"ВААААУ, СПАСИБООО, ЛЮБИМЫЫЫЙ{e(HEART, HEART, SMILING_HEARTS, HEART, HEART, SMILING_HEARTS)}",
+            "ВААААУ, СПАСИБООО, ЛЮБИМЫЫЫЙ❤️❤️🥰❤️❤️🥰",
         ],
         "next": 6,
     },
