@@ -15,6 +15,7 @@ import pathlib
 from aiohttp import web
 from aiogram import Bot, Dispatcher, types, F
 from aiogram.enums import ChatAction, ParseMode
+from aiogram.client.default import DefaultBotProperties
 from aiogram.filters import CommandStart
 from aiogram.types import (
     ReplyKeyboardMarkup,
@@ -44,7 +45,7 @@ logging.basicConfig(
 log = logging.getLogger("birthday_bot")
 
 # ── Инициализация ──────────────────────────────────────────────
-bot = Bot(token=BOT_TOKEN, parse_mode=ParseMode.HTML)
+bot = Bot(token=BOT_TOKEN, default=DefaultBotProperties(parse_mode=ParseMode.HTML))
 dp = Dispatcher()
 
 # user_id → текущий индекс шага
