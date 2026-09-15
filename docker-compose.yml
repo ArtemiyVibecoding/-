@@ -1,0 +1,10 @@
+services:
+  birthday-bot:
+    build: .
+    container_name: birthday-bot
+    restart: unless-stopped
+    env_file:
+      - .env
+    volumes:
+      # Чтобы можно было менять видео без пересборки образа
+      - ./assets:/app/assets:ro
